@@ -8,7 +8,8 @@ public class ColumnSketcher {
 
     private int nRows, nCols;
     private int nDistances;
-    private double[][] data;
+    private double[][] normalizedData;
+    private double[][] rawData;
     private String[] colNames;
     private double[] distancesBetweenRowsOnAllColumns;
     private double[] distancesBetweenRowsOnSelectedColumns;
@@ -18,7 +19,8 @@ public class ColumnSketcher {
     public ColumnSketcher(String fileName, double maxCorrelation) {
         DataSource dataSource = new DataSource(fileName);
         this.maxCorrelation = maxCorrelation;
-        data = dataSource.getData();
+        normalizedData = dataSource.getNormalizedData();
+        rawData = dataSource.getRawData();
         colNames = dataSource.getColumnNames();
         nRows = dataSource.getNumRows();
         nCols = dataSource.getNumCols();
@@ -28,8 +30,9 @@ public class ColumnSketcher {
     public void compute() {
         computeDistancesOnAllColumns();
         Set<Integer> selectedColumns = selectBestColumns();
-        computeDistancesOnSelectedColumns(selectedColumns);
-//        writeDistances();
+//        computeDistancesOnSelectedColumns(selectedColumns);
+        System.out.println ("ColumnSketcher output number of columns "+ selectedColumns.size());
+        writeSketch(selectedColumns);
     }
 
     private void computeDistancesOnAllColumns() {
@@ -37,9 +40,9 @@ public class ColumnSketcher {
         for (int k = 0; k < nCols; k++) {
             int ij = 0;
             for (int i = 1; i < nRows; i++) {
-                double[] ri = new double[]{data[i][k]};
+                double[] ri = new double[]{normalizedData[i][k]};
                 for (int j = 0; j < i; j++) {
-                    double[] rj = new double[]{data[j][k]};
+                    double[] rj = new double[]{normalizedData[j][k]};
                     double distance = squaredDistance(ri, rj);
                     if (!Double.isNaN(distance))
                         distancesBetweenRowsOnAllColumns[ij] += distance;
@@ -63,7 +66,7 @@ public class ColumnSketcher {
                     continue;
                 computeDistancesOnSelectedColumn(k);
                 double r = 0;
-                r = frobenius(distancesBetweenRowsOnAllColumns, distancesBetweenRowsOnSelectedColumn, null);
+                r = frobenius(distancesBetweenRowsOnAllColumns, distancesBetweenRowsOnSelectedColumn);
                 if (r > bestCorrelation) {
                     bestColumn = k;
                     bestCorrelation = r;
@@ -86,9 +89,9 @@ public class ColumnSketcher {
         double[] rj = new double[1];
         int ij = 0;
         for (int i = 1; i < nRows; i++) {
-            ri[0] = data[i][column];
+            ri[0] = normalizedData[i][column];
             for (int j = 0; j < i; j++) {
-                rj[0] = data[j][column];
+                rj[0] = normalizedData[j][column];
                 double distance = squaredDistance(ri, rj);
                 if (!Double.isNaN(distance))
                     distancesBetweenRowsOnSelectedColumn[ij] = distance + distancesBetweenRowsOnSelectedColumns[ij];
@@ -99,6 +102,7 @@ public class ColumnSketcher {
 
     private void computeDistancesOnSelectedColumns(Set<Integer> selectedColumns) {
         /* all possible pairs of distinct rows */
+        /* this makes an enormous file, so it is not used as a default */
         distancesBetweenRowsOnSelectedColumns = new double[nDistances];
         int nSelected = selectedColumns.size();
         double[] ri = new double[nSelected];
@@ -108,13 +112,13 @@ public class ColumnSketcher {
         for (int i = 1; i < nRows; i++) {
             int k = 0;
             for (Integer selectedColumn : selectedColumns) {
-                ri[k] = data[i][selectedColumn];
+                ri[k] = normalizedData[i][selectedColumn];
                 k++;
             }
             for (int j = 0; j < i; j++) {
                 k = 0;
                 for (Integer selectedColumn : selectedColumns) {
-                    rj[k] = data[j][selectedColumn];
+                    rj[k] = normalizedData[j][selectedColumn];
                     k++;
                 }
                 distancesBetweenRowsOnSelectedColumns[ij] = squaredDistance(ri, rj);
@@ -122,23 +126,6 @@ public class ColumnSketcher {
             }
         }
     }
-
-//    private void writeDistances() {
-//        PrintWriter writer = null;
-//        try {
-//            writer = new PrintWriter("aggregatedColumns.csv", "UTF-8");
-//        } catch (Exception e) {
-//        }
-//
-//        int ij = 0;
-//        for (int i = 1; i < nRows; i++) {
-//            for (int j = 0; j < i; j++) {
-//                writer.println(i + "," + j + "," + distancesBetweenRowsOnSelectedColumns[ij]);
-//                ij++;
-//            }
-//        }
-//        writer.close();
-//    }
 
     private double squaredDistance(double[] e1, double[] e2) {
         double sum = 0;
@@ -155,7 +142,7 @@ public class ColumnSketcher {
         return sum;
     }
 
-    private static double frobenius(double[] x, double[] y, double[] weights) {
+    private static double frobenius(double[] x, double[] y) {
         if (x.length != y.length)
             return Double.NaN;
         double f = 0;
@@ -171,5 +158,35 @@ public class ColumnSketcher {
         y2 = Math.sqrt(y2);
         f = xy / (x2 * y2);
         return f;
+    }
+
+    private void writeSketch(Set selectedColumns) {
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter("sketch.csv", "UTF-8");
+        } catch (Exception e) {
+            System.out.println("Unable to allocate column sketch file");
+        }
+
+        Object[] s = selectedColumns.toArray();
+
+        /* write header */
+        for (int j = 0; j < selectedColumns.size(); j++) {
+            if (j < selectedColumns.size() -1)
+                writer.print(colNames[(Integer) s[j]]+",");
+            else
+                writer.println(colNames[j]);
+        }
+
+        for (int i = 0; i < nRows; i++) {
+            for (int j = 0; j < selectedColumns.size(); j++) {
+                if (j < selectedColumns.size() -1) {
+                    writer.print(rawData[i][(Integer) s[j]] + ",");
+                } else {
+                    writer.println(rawData[i][(Integer) s[j]]);
+                }
+            }
+        }
+        writer.close();
     }
 }

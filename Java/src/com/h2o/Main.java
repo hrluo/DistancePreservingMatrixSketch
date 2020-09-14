@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Sketch ");
 
-        if (args[1].equalsIgnoreCase("columns")) {
-            ColumnSketcher cs = new ColumnSketcher(args[0], .95);
-            cs.compute();
-        } else if (args[1].equalsIgnoreCase("rows")) {
-            RowSketcher rs = new RowSketcher(args[0], 0);
-            rs.compute();
-        }
+        String fileName = args[0];
+        double radius = Double.parseDouble(args[1]);
+        double maxCorrelation = Double.parseDouble(args[2]);
+        RowSketcher rs = new RowSketcher(fileName, radius);
+        rs.compute();
+        ColumnSketcher cs = new ColumnSketcher("sketch.csv", maxCorrelation);
+        cs.compute();
     }
 }

@@ -5,26 +5,25 @@ import java.io.IOException;
 public class DataSource {
     private int nRows;
     private int nCols;
-    private double[][] data;
+    private double[][] normalizedData;
+    private double[][] rawData;
     private String[] columnNames;
     private String fileName;
     private double[] minValues;
     private double[] maxValues;
-    private boolean isNormalized = true;
 
     public DataSource(String fileName) {
-        /* this code reads only classic, strict CSV files. Namely, comma separators and a header file with labels */
+        /* this code reads only classic, strict CSV files. Namely, comma separators and a header record with labels */
         this.fileName = fileName;
         try {
             countRows();
             readDataRecords();
 
         } catch (java.io.IOException ie) {
-            System.out.println("Error reading data file.");
+            System.out.println("Error reading normalizedData file.");
         }
         System.out.println("Input data rows, cols " + nRows + " " + nCols);
-        if (isNormalized)
-            normalize();
+        normalize();
     }
 
     public int getNumRows() {
@@ -35,8 +34,12 @@ public class DataSource {
         return nCols;
     }
 
-    public double[][] getData() {
-        return data;
+    public double[][] getNormalizedData() {
+        return normalizedData;
+    }
+
+    public double[][] getRawData() {
+        return rawData;
     }
 
     public String[] getColumnNames() {
@@ -57,11 +60,11 @@ public class DataSource {
         java.io.BufferedReader bufferedReader = openDataFile();
 
         readColumnNamesRecord();
-
         nRows = 0;
         while (bufferedReader.readLine() != null) {
             nRows++;
         }
+        nRows--;
         bufferedReader.close();
     }
 
@@ -81,7 +84,8 @@ public class DataSource {
 
         bufferedReader.readLine();    // skip column labels record
 
-        data = new double[nRows][nCols];
+        normalizedData = new double[nRows][nCols];
+        rawData = new double[nRows][nCols];
         minValues = new double[nCols];
         maxValues = new double[nCols];
         for (int j = 0; j < nCols; j++) {
@@ -101,13 +105,13 @@ public class DataSource {
     private void processRecord(String[] fields, int row) {
         for (int j = 0; j < nCols; j++) {
             try {
-                data[row][j] = Double.parseDouble(fields[j]);
-                if (!Double.isNaN(data[row][j])) {
-                    minValues[j] = Math.min(data[row][j], minValues[j]);
-                    maxValues[j] = Math.max(data[row][j], maxValues[j]);
+                rawData[row][j] = Double.parseDouble(fields[j]);
+                if (!Double.isNaN(rawData[row][j])) {
+                    minValues[j] = Math.min(rawData[row][j], minValues[j]);
+                    maxValues[j] = Math.max(rawData[row][j], maxValues[j]);
                 }
             } catch (NumberFormatException e) {
-                data[row][j] = Double.NaN;
+                rawData[row][j] = Double.NaN;
             }
         }
     }
@@ -115,7 +119,7 @@ public class DataSource {
     private void normalize() {
         for (int i = 0; i < nRows; i++) {
             for (int j = 0; j < nCols; j++) {
-                data[i][j] = (data[i][j] - minValues[j]) / (maxValues[j] - minValues[j]);
+                normalizedData[i][j] = (rawData[i][j] - minValues[j]) / (maxValues[j] - minValues[j]);
             }
         }
     }

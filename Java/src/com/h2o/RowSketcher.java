@@ -1,30 +1,34 @@
 package com.h2o;
 
 
+import java.io.PrintWriter;
 import java.util.*;
 
 public class RowSketcher {
-    private double[][] data;
+    private DataSource dataSource;
+    private double[][] normalizedData;
+    private double[][] rawData;
     private String[] colNames;
     private int nRows, nCols;
     private double delta;
     private ArrayList<double[]> exemplars;
+    private ArrayList<Integer> exemplarIndices;
     private ArrayList<ArrayList<Integer>> memberIndices;
-    private int MAXDIMENSIONS = 500;
-    public double radius;
+    private double radius;
     public static int seed = 4123;
     public static Random random = new Random(seed);
 
     public RowSketcher (String fileName, double radius){
-        DataSource dataSource = new DataSource(fileName);
+        this.dataSource = new DataSource(fileName);
         this.radius = radius;
-        data = dataSource.getData();
+        normalizedData = dataSource.getNormalizedData();
+        rawData = dataSource.getRawData();
         colNames = dataSource.getColumnNames();
         nRows = dataSource.getNumRows();
         nCols = dataSource.getNumCols();
     }
 
-    public ArrayList getMemberIndices() {
+    public List getMemberIndices() {
         return memberIndices;
     }
 
@@ -36,15 +40,12 @@ public class RowSketcher {
         /*
          * an exemplar is a case that is used to represent its close members
          */
-        initializeParameters();
+        exemplars = new ArrayList<>();
+        exemplarIndices = new ArrayList<>();
+        memberIndices = new ArrayList<>();
         memberIndices.add(new ArrayList<>());
         memberIndices.get(0).add(0);
-        double[][] t = null;
-        boolean isHighDimensional = nCols > MAXDIMENSIONS;
-        if (isHighDimensional) {
-            nCols = MAXDIMENSIONS;
-//            t = randomGaussianProjectionMatrix(nCols, nCols);
-        }
+
         if (radius <= 0) {
         /*
         See Doug Jungreis solution at
@@ -60,20 +61,18 @@ public class RowSketcher {
 
         for (int i = 0; i < nRows; i++) {
             double[] row = new double[nCols];
-            System.arraycopy(data[i], 0, row, 0, nCols);
-            if (isHighDimensional)
-                row = randomProjection(row, t);
+            System.arraycopy(normalizedData[i], 0, row, 0, nCols);
             /* find closest exemplar and assign this row to it or start new exemplar */
             double distanceToNearestExemplar = Double.POSITIVE_INFINITY;
             int closestExemplarIndex = 0;
             int numExemplars = exemplars.size();
-            int[] exemplarIndices = new int[numExemplars];
+            List exemplarVisitingOrder = new ArrayList<>();
             for (int k = 0; k < numExemplars; k++) {
-                exemplarIndices[k] = k;
+                exemplarVisitingOrder.add(new Integer(k));
             }
-            shuffleIntArray(exemplarIndices);    // shuffle order in which exemplars are examined
+            Collections.shuffle(exemplarVisitingOrder);
             for (int k = 0; k < numExemplars; k++) {
-                int nextIndex = exemplarIndices[k];
+                Integer nextIndex = (Integer) exemplarVisitingOrder.get(k);
                 double[] e = exemplars.get(nextIndex);
                 double d = distance(e, row);
                 if (d < distanceToNearestExemplar) {
@@ -89,17 +88,14 @@ public class RowSketcher {
             } else {
                 /* otherwise, form a new exemplar */
                 exemplars.add(row);
+                exemplarIndices.add(i);
                 ArrayList<Integer> member = new ArrayList<>();
                 member.add(i);
                 memberIndices.add(member);
             }
         }
-        System.out.println ("Output number of rows "+ exemplars.size());
-    }
-
-    private void initializeParameters() {
-        exemplars = new ArrayList<>();
-        memberIndices = new ArrayList<>();
+        System.out.println ("RowSketcher output number of rows "+ exemplars.size());
+        writeSketch();
     }
 
     private double distance(double[] e1, double[] e2) {
@@ -121,28 +117,32 @@ public class RowSketcher {
         return sum;
     }
 
-    private double[] randomProjection(double[] row, double[][] projectionMatrix) {
-        int nProj = projectionMatrix[0].length;
-        double[] r = new double[nProj];
-        for (int j = 0; j < nProj; j++) {
-            double n = 0;
-            for (int k = 0; k < nCols; k++) {
-                if (!Double.isNaN(row[k])) {
-                    r[j] += row[k] * projectionMatrix[k][j];
-                    n++;
+    private void writeSketch() {
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter("sketch.csv", "UTF-8");
+        } catch (Exception e) {
+            System.out.println("Unable to allocate row sketch file");
+        }
+
+        /* write header */
+        for (int j = 0; j < nCols; j++) {
+            if (j < nCols -1)
+                writer.print(colNames[j]+",");
+            else
+                writer.println(colNames[j]);
+        }
+
+        for (int i = 0; i < exemplars.size(); i++) {
+            int index = exemplarIndices.get(i);
+            for (int j = 0; j < nCols; j++) {
+                if (j < nCols -1) {
+                    writer.print(rawData[index][j] + ",");
+                } else {
+                    writer.println(rawData[index][j]);
                 }
             }
-            r[j] /= n;
         }
-        return r;
-    }
-
-    private static void shuffleIntArray(int[] x) {
-        for (int i = x.length - 1; i > 0; i--) {
-            int index = random.nextInt(i + 1);
-            int a = x[index];
-            x[index] = x[i];
-            x[i] = a;
-        }
+        writer.close();
     }
 }

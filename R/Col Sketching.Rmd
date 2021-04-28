@@ -1,0 +1,121 @@
+### Sketching
+```{r}
+set.seed(777)
+#Fake some data for exhibition purpose
+X = runif(500,min=0,max=1)
+X = matrix(X,ncol=10)
+X = X/rowSums(X)
+print(X)
+#This is a 50 by 10 dataset
+```
+```{r}
+m = dim(X)[1]
+p = dim(X)[2]
+mm = as.integer(m*(m-1)/2)
+maxCorrelation = 0.95
+maxCols = p
+maxIteration = p+1
+cat(m,p,maxCorrelation,maxIteration)
+```
+```{r}
+matProd<-function(mat1,mat2){
+    #print(np.shape(mat1),np.shape(mat2))
+    d = t(mat1)%*%mat2
+    d1 = sum(diag(d))#this is equivalent to trace
+    return (d1)
+}
+matProd(X,X)
+```
+### Col algorithm
+```{r}
+#Col algorithm
+X = read.table('test_data2.txt')
+#from scipy.spatial import distance_matrix
+#print(previousColDist)
+#print(allColDist)
+
+myRange<-function(start,stop,step){
+    if(start == stop){
+        return (stop)
+    }else{
+        return (seq(start,stop,step))
+    }
+}
+
+#def dist(matrix):
+#    d = distance_matrix(matrix,matrix)
+#    return (d**2)
+
+correlation = 0.0
+selectedCols = c()
+selectedPointer = 1
+mm = as.integer( m*(m-1)/2 - 1 )
+previousColDist = matrix(0,m,m)
+allColDist = as.matrix( dist(X,upper = T,diag = T) )^2 #m*(m-1)/2
+
+#VERBOSE = TRUE for debugging
+VERBOSE = FALSE
+
+iterations = 0
+bestColumn = 0 
+bestCorrelation = 0.0
+
+cat('\n Maximal select-able number of dimensions',maxCols)
+while (correlation<maxCorrelation & length(selectedCols)<maxCols & iterations<50){
+    cat('\n Selected columns: ',selectedCols)
+    cat('\n Cumulative correlation =',bestCorrelation)
+    cat('\n Iteration :',iterations)
+    cat('\n Coefficient threshold =',maxCorrelation)
+    #cat('previousColDist',previousColDist)
+    bestColumn = 0 
+    bestCorrelation = 0.0
+    previousBestCorrelation = 0.0
+    iterations = iterations + 1
+
+    for(j in myRange(1,p,1) ){
+        #message(j)
+        if(!(j %in% selectedCols)){
+            X_j = X[,j]
+            jColDist = as.matrix( dist(X_j,upper = T,diag = T) )^2
+            cumColDist = jColDist + previousColDist
+            #print(previousColDist)
+            #print(np.shape(jColDist))
+            #Frobenius matrix coefficient 
+            correlation = matProd(cumColDist,allColDist)/sqrt( (matProd(cumColDist,cumColDist)*matProd(allColDist,allColDist) ) )
+            #print( cumColDist )
+            #break
+            if(VERBOSE==TRUE){
+                cat('\n Correlation =',correlation,' if we include column',j,'(represented as ',j,'in an R array)')
+            }
+            if(correlation > bestCorrelation){
+                bestColumn = j
+                bestCorrelation = correlation
+            }
+        }
+    }
+    if(VERBOSE==TRUE){
+        cat('\n ***Best column to include is the column',bestColumn,' with correlation', bestCorrelation)
+    }
+    if(previousBestCorrelation > bestCorrelation | bestCorrelation > 1){
+        bestCorrelation = previousBestCorrelation
+        break
+    }
+    X_bestColumn = X[,bestColumn]
+    #X_bestColumn = X_bestColumn.reshape(-1,1)
+    bestColDist = as.matrix( dist(X_bestColumn,upper = T,diag = T) )^2
+    #print('bestColDist',bestColDist)
+    previousColDist = bestColDist+previousColDist
+    if(!(bestColumn %in% selectedCols) & bestColumn != 0){
+        selectedCols = c(selectedCols,bestColumn)
+    }
+    previousBestCorrelation = bestCorrelation
+}
+cat('\n Output selected columns: ',selectedCols)
+cat('\n Final cumulative coefficient (coefficient between full distance matrix and selected column distance matrix): ',bestCorrelation)
+            
+```
+```{r}
+pairs(X,pch=16)
+pairs(X[,selectedCols],pch=16)
+```
+

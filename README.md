@@ -6,7 +6,7 @@
 This is the code repository for the research publication "A Distance-preserving Matrix Sketch" by [Leland Wilkinson](https://www.cs.uic.edu/~wilkinson/) and [Hengrui Luo](https://hrluo.github.io/). 
 The manuscript of this paper can be accessed at https://arxiv.org/abs/2009.03979. 
 
- - In [Python folder](https://github.com/hrluo/DistancePreservingMatrixSketch/tree/master/Python), we provided a set of illustrative code that serves as a proof of concept and exhibits the sketching algorithm with extensive comments and remarks.
+ - In [Python folder](https://github.com/hrluo/DistancePreservingMatrixSketch/tree/master/Python) and [R folder](https://github.com/hrluo/DistancePreservingMatrixSketch/tree/master/R), we provided a set of illustrative code that serves as a proof of concept and exhibits the sketching algorithm with extensive comments and remarks.
  - In [Java folder](https://github.com/hrluo/DistancePreservingMatrixSketch/tree/master/Java), we provided a set of robust code that can be executed for large datasets with additional features like _Johnson-Lindenstrauss algorithm_.
 
 **Abstract**

@@ -7,9 +7,8 @@ Sketcher is a Python or Java library for sketching a matrix.
 Install Java and/or Python.
 
 ## Java Usage
-
+java main -d64 -Xms 4g -Xmx 6g 
 ```
-java main
 ```
 
 ## License

@@ -23,31 +23,29 @@ public class ColumnSketcher {
 
     private int nRows, nCols;
     private int nDistances;
-    private double[][] normalizedData;
-    private double[][] rawData;
+    private double[][] data;
     private String[] colNames;
     private double[] distancesBetweenRowsOnAllColumns;
     private double[] distancesBetweenRowsOnSelectedColumns;
     private double[] distancesBetweenRowsOnSelectedColumn;
     private double maxCorrelation;
+    private DataSource dataSource;
 
     public ColumnSketcher(String fileName, double maxCorrelation) {
-        DataSource dataSource = new DataSource(fileName);
+        this.dataSource = new DataSource(fileName);
         this.maxCorrelation = maxCorrelation;
-        normalizedData = dataSource.getNormalizedData();
-        rawData = dataSource.getRawData();
+        data = dataSource.getData();
         colNames = dataSource.getColumnNames();
-        nRows = dataSource.getNumRows();
-        nCols = dataSource.getNumCols();
-        nDistances = nRows * (nRows - 1) / 2;
+        this.nRows = dataSource.getNumRows();
+        this.nCols = dataSource.getNumCols();
+        nDistances = this.nRows * (this.nRows - 1) / 2;
     }
 
     public void compute() {
         computeDistancesOnAllColumns();
         Set<Integer> selectedColumns = selectBestColumns();
 //        computeDistancesOnSelectedColumns(selectedColumns);
-        System.out.println ("ColumnSketcher output number of columns "+ selectedColumns.size());
-        writeSketch(selectedColumns);
+        writeColumnSketch(selectedColumns);
     }
 
     private void computeDistancesOnAllColumns() {
@@ -55,9 +53,9 @@ public class ColumnSketcher {
         for (int k = 0; k < nCols; k++) {
             int ij = 0;
             for (int i = 1; i < nRows; i++) {
-                double[] ri = new double[]{normalizedData[i][k]};
+                double[] ri = new double[]{data[i][k]};
                 for (int j = 0; j < i; j++) {
-                    double[] rj = new double[]{normalizedData[j][k]};
+                    double[] rj = new double[]{data[j][k]};
                     double distance = squaredDistance(ri, rj);
                     if (!Double.isNaN(distance))
                         distancesBetweenRowsOnAllColumns[ij] += distance;
@@ -77,7 +75,7 @@ public class ColumnSketcher {
         for (int j = 0; j < nCols; j++) {
             double bestCorrelation = Double.NEGATIVE_INFINITY;
             for (int k = 0; k < nCols; k++) {
-                if (selectedColumns.contains(k))
+                if (selectedColumns.contains(k) || colNames[j].equals("frequencies"))
                     continue;
                 computeDistancesOnSelectedColumn(k);
                 double r = 0;
@@ -104,9 +102,9 @@ public class ColumnSketcher {
         double[] rj = new double[1];
         int ij = 0;
         for (int i = 1; i < nRows; i++) {
-            ri[0] = normalizedData[i][column];
+            ri[0] = data[i][column];
             for (int j = 0; j < i; j++) {
-                rj[0] = normalizedData[j][column];
+                rj[0] = data[j][column];
                 double distance = squaredDistance(ri, rj);
                 if (!Double.isNaN(distance))
                     distancesBetweenRowsOnSelectedColumn[ij] = distance + distancesBetweenRowsOnSelectedColumns[ij];
@@ -127,13 +125,13 @@ public class ColumnSketcher {
         for (int i = 1; i < nRows; i++) {
             int k = 0;
             for (Integer selectedColumn : selectedColumns) {
-                ri[k] = normalizedData[i][selectedColumn];
+                ri[k] = data[i][selectedColumn];
                 k++;
             }
             for (int j = 0; j < i; j++) {
                 k = 0;
                 for (Integer selectedColumn : selectedColumns) {
-                    rj[k] = normalizedData[j][selectedColumn];
+                    rj[k] = data[j][selectedColumn];
                     k++;
                 }
                 distancesBetweenRowsOnSelectedColumns[ij] = squaredDistance(ri, rj);
@@ -175,10 +173,10 @@ public class ColumnSketcher {
         return f;
     }
 
-    private void writeSketch(Set selectedColumns) {
+    private void writeColumnSketch(Set selectedColumns) {
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter("sketch.csv", "UTF-8");
+            writer = new PrintWriter("colsketch.csv", "UTF-8");
         } catch (Exception e) {
             System.out.println("Unable to allocate column sketch file");
         }
@@ -190,18 +188,21 @@ public class ColumnSketcher {
             if (j < selectedColumns.size() -1)
                 writer.print(colNames[(Integer) s[j]]+",");
             else
-                writer.println(colNames[j]);
+                writer.println(colNames[(Integer) s[j]]);
         }
 
         for (int i = 0; i < nRows; i++) {
             for (int j = 0; j < selectedColumns.size(); j++) {
-                if (j < selectedColumns.size() -1) {
-                    writer.print(rawData[i][(Integer) s[j]] + ",");
+                data[i][j] = (dataSource.maxValues[j] - dataSource.minValues[j]) * data[i][(Integer) s[j]] + dataSource.minValues[(Integer) s[j]];
+                if (j < (selectedColumns.size() -1)) {
+                    writer.print(data[i][(Integer) s[j]] + ",");
                 } else {
-                    writer.println(rawData[i][(Integer) s[j]]);
+                    writer.println(data[i][(Integer) s[j]]);
                 }
             }
         }
         writer.close();
+        System.out.println ("ColumnSketcher output file name is colsketch.csv");
+        System.out.println ("ColumnSketcher output number of columns "+ selectedColumns.size());
     }
 }

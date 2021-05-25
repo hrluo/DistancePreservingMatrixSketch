@@ -21,8 +21,7 @@ import java.util.*;
 
 public class RowSketcher {
     private DataSource dataSource;
-    private double[][] normalizedData;
-    private double[][] rawData;
+    private double[][] data;
     private String[] colNames;
     private int nRows, nCols;
     private double delta;
@@ -33,11 +32,10 @@ public class RowSketcher {
     public static int seed = 4123;
     public static Random random = new Random(seed);
 
-    public RowSketcher (String fileName, double radius){
+    public RowSketcher (String fileName, double radius) {
         this.dataSource = new DataSource(fileName);
         this.radius = radius;
-        normalizedData = dataSource.getNormalizedData();
-        rawData = dataSource.getRawData();
+        data = dataSource.getData();
         colNames = dataSource.getColumnNames();
         nRows = dataSource.getNumRows();
         nCols = dataSource.getNumCols();
@@ -76,7 +74,7 @@ public class RowSketcher {
 
         for (int i = 0; i < nRows; i++) {
             double[] row = new double[nCols];
-            System.arraycopy(normalizedData[i], 0, row, 0, nCols);
+            System.arraycopy(data[i], 0, row, 0, nCols);
             /* find closest exemplar and assign this row to it or start new exemplar */
             double distanceToNearestExemplar = Double.POSITIVE_INFINITY;
             int closestExemplarIndex = 0;
@@ -109,8 +107,15 @@ public class RowSketcher {
                 memberIndices.add(member);
             }
         }
-        System.out.println ("RowSketcher output number of rows "+ exemplars.size());
-        writeSketch();
+        double[] frequencies = new double[exemplars.size()];
+        for (int j = 0; j < nCols; j++) {
+            double[] y = new double[exemplars.size()];
+            for (int i = 0; i < exemplars.size(); i++) {
+                y[i] = exemplars.get(i)[0];
+                frequencies[i] = memberIndices.get(i).size();
+            }
+        }
+        writeRowSketch(frequencies);
     }
 
     private double distance(double[] e1, double[] e2) {
@@ -132,32 +137,30 @@ public class RowSketcher {
         return sum;
     }
 
-    private void writeSketch() {
+    private void writeRowSketch(double[] frequencies) {
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter("sketch.csv", "UTF-8");
+            writer = new PrintWriter("rowsketch.csv", "UTF-8");
         } catch (Exception e) {
             System.out.println("Unable to allocate row sketch file");
         }
 
         /* write header */
         for (int j = 0; j < nCols; j++) {
-            if (j < nCols -1)
-                writer.print(colNames[j]+",");
-            else
-                writer.println(colNames[j]);
+            writer.print(colNames[j]+",");
         }
+        writer.println("frequencies");
 
         for (int i = 0; i < exemplars.size(); i++) {
             int index = exemplarIndices.get(i);
             for (int j = 0; j < nCols; j++) {
-                if (j < nCols -1) {
-                    writer.print(rawData[index][j] + ",");
-                } else {
-                    writer.println(rawData[index][j]);
-                }
+                data[index][j] = (dataSource.maxValues[j] - dataSource.minValues[j]) * data[index][j] + dataSource.minValues[j];
+                writer.print(data[index][j] + ",");
             }
+            writer.println(frequencies[i]);
         }
         writer.close();
+        System.out.println ("RowSketcher output file name is rowsketch.csv");
+        System.out.println ("RowSketcher output number of rows "+ exemplars.size());
     }
 }

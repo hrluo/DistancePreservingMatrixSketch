@@ -1,7 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00fae0b6-a3c5-40a8-a7f5-b4b86f47e33e" name="Default" comment="" />
+    <list default="true" id="00fae0b6-a3c5-40a8-a7f5-b4b86f47e33e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" afterPath="$PROJECT_DIR$/../.metadata/.log" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1/101d6ab2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/12/50168d7ea81b0016110dba08f2f86e03" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1b/f01da0d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1d/30d89bd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/20/10775bb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/28/f0995db2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/2b/a0ed6db2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/2d/10dda2d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3/30551fd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/30/402168b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/33/d06958b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/36/90a4a1d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/38/40926ab2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/39/f0b06eb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3d/e04cebd2c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3f/e03667b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/42/709e18d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/4a/105960b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/4a/a05e70b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/4b/30a1630bc81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/4d/60944db2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/4f/e06b73b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/53/60a474b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/54/90556bb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/54/d0d370b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/56/00a362b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/56/c0431ed3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5a/a0d65cb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5e/f01b4dd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/b00076d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/62/f037f5d2c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/63/709668b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/64/70076bb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/66/907366b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6a/90205fb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6d/40709ed3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6e/10d21b17411c00161798ef4e7c9b9c2d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/70/800a4cd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/70/c0955fb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/72/b08d20d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/76/a00b69b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/76/e073f64aa81b0016110dba08f2f86e03" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/78/209aa1eb401c00161798ef4e7c9b9c2d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/7c/10e173b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/7c/50f560b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/80/304d6fb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/82/001465b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/88/60516db2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8a/70972ed3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8b/705a72b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8c/a0e749d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/95/101999d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/95/c0ca6bb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/98/a0655ab2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/99/80d3ecd2c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9b/10f4b3d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9c/103c2bd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/a8/b09f9ad3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/60ab5eb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/af/10e239d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b2/f0ffa4d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b3/c07764b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b6/a04a78d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b6/b0f672b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b9/808238d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ba/e0186cb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/bd/00e95bd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/bf/90742cd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c0/80db63b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c3/50135cb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c3/f05e2dd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c5/90cd57b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c7/20b56cb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c8/904173d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cb/00df58b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cc/40e571b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ce/409a1ad3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cf/a0b861b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d5/90c29cd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d8/401207d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/da/308965b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e/60c26fb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e0/407b59b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e1/004971b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e8/301b7cd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ea/403f63b2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/eb/509e9feb401c00161798ef4e7c9b9c2d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ed/e0015bb2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f4/002ae9d2c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f4/a0841bd3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f5/9021f84aa81b0016110dba08f2f86e03" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f9/00c476d3c71e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/fc/10e85db2c81e00161fc3cf4fd519e34e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CHIRP/.location" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CHIRP/.markers" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CHIRP/.markers.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CHIRP/.syncinfo.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CHIRP/org.eclipse.jdt.core/state.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/21/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/7a/1f/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/7a/2/dd/41/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/7a/2/dd/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/7a/2/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/7a/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/8b/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/aa/2/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/aa/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/7f/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/21/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/7a/1f/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/7a/2/dd/41/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/7a/2/dd/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/7a/2/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/7a/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/8b/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/aa/2/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.indexes/e4/81/e5/ad/aa/history.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.markers" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.markers.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/GrammarOfGraphics/.syncinfo.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/12.tree" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/12.snap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ui.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.recommenders.rcp.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.recommenders.rcp.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Linf.launch" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Linf.launch" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration (1).launch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.prx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_6.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1384487945.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/156905802.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1776413112.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1819685514.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1833648217.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2545238116.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2590415974.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3266567714.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3302703152.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3321539481.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3712507179.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/CHIRP/2016/4/17/refactorings.history" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/CHIRP/2016/4/17/refactorings.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.search/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.search/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" afterPath="$PROJECT_DIR$/../.metadata/version.ini" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.frq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.nrm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.prx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.tii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_3.tis" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" afterPath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments_4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/.classpath" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/.project" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/JSONSyntax.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/.classpath" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/.project" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/Globals.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/Analytic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/anomalies/Anomalies.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/anomalies/Distributions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/anomalies/Outliers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/CategoricalToContinuousMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/EigenSystems.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/FastFourierTransform.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/FunctionEvaluator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Math2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Matrices.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Optimizer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/Sorts.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/WeibullFunction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/Cognostics$Cell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/Cognostics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/CorrespondenceAnalysis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/LinearSystems.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/Nonparametrics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/OneWayANOVA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/Probabilities.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$CCF.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$CityBlock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Cosine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Covariance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$CrossProduct.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Damerau.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Euclidean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Jaccard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Levenshtein.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$Linf.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$NCD.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$NormalizedEuclidean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$PRE.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$PearsonCorrelation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions$SpearmanCorrelation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SimilarityFunctions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/Statistics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/SymmetricMatrices.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/NonparametricRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/OrdinaryLeastSquaresRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/PolynomialRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/Regression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/RegressionOLS.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/RobustRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/analytics/util/statistics/regression/TrimmedRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/DataTable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/Aggregator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/CSVImporter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/CurrencyUtilities.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/DataImporter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/DateUtilities.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/NumericalFormats.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/Stemmer1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/Stemmer2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/TextUtilities$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/TextUtilities.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/data/util/Units.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/graphics/DotPlots.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/graphics/Graphics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/graphics/Histobars.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/graphics/ParallelCoordinates.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/graphics/Scatterplots.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/processors/AnalyticProcessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/processors/DataProcessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/processors/GraphicsProcessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/com/h2o/gog/processors/Processor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/ItemList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONAware.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONPrettyPrint.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONStreamAware.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/JSONValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/ContainerFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/ContentHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/JSONParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/ParseException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/Yylex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/bin/org/json/simple/parser/Yytoken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/Hertzsprung.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/Longley.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/US.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/Untitled.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/adult.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/bank.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/baseball.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/cars.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/crime.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/iris.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/madelon.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/movies.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/ourworld.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/salesJan2009.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/IBM.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/MNB23.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/MRM9.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/QNC19.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/airline.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/airlineMissing.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/airlineOutliers.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/australianCrime.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/beerproduction.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/books.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/co2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/cola.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/drywhite.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/fortif.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/hsales.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/lead.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/lynx.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/pallas.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/sp500.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/sunspots.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/ukcars.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/series/visitors.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/sleep.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/t100k.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/t1m.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/titanic.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/weather.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/data/wine.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/gg.JAR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/.classpath" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/.project" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/Globals.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/Analytic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/anomalies/Anomalies.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/anomalies/Distributions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/anomalies/Outliers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/CategoricalToContinuousMap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/EigenSystems.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/FastFourierTransform.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/FunctionEvaluator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/Math2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/Matrices.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/Optimizer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/Sorts.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/WeibullFunction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/Cognostics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/CorrespondenceAnalysis.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/LinearSystems.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/Nonparametrics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/OneWayANOVA.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/Probabilities.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/SimilarityFunctions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/Statistics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/SymmetricMatrices.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/NonparametricRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/OrdinaryLeastSquaresRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/PolynomialRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/Regression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/RegressionOLS.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/RobustRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/analytics/util/statistics/regression/TrimmedRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/DataTable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/Aggregator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/CSVImporter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/CurrencyUtilities.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/DataImporter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/DateUtilities.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/NumericalFormats.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/Stemmer1.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/Stemmer2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/TextUtilities.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/data/util/Units.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/graphics/DotPlots.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/graphics/Graphics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/graphics/Histobars.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/graphics/ParallelCoordinates.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/graphics/Scatterplots.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/processors/AnalyticProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/processors/DataProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/processors/GraphicsProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/com/h2o/gog/processors/Processor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/ItemList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONArray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONAware.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONMap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONPrettyPrint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONStreamAware.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/JSONValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/ContainerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/ContentHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/JSONParser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/ParseException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/Yylex.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../GrammarOfGraphics/src/org/json/simple/parser/Yytoken.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/gradle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/settings.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../h2o-gg/src/main/java/water/ai/h2o/gg/GGStarter.java" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,72 +420,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#4549#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-                <element signature="e#1619#1620#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1723#1724#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="RowSketcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
-                <element signature="e#0#5815#0" expanded="true" />
+                <element signature="e#0#6139#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sketch.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketch.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +441,10 @@
       <file leaf-file-name="ColumnSketcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="1230">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
-                <element signature="e#0#7573#0" expanded="true" />
+                <element signature="e#0#7746#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -97,10 +454,28 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
               <folding>
-                <element signature="e#0#1036#0" expanded="true" />
+                <element signature="e#0#4569#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,12 +483,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Treem</find>
       <find>8.</find>
       <find>print</find>
+      <find>lind</find>
+      <find>sketch.csv</find>
+      <find>not found</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -134,21 +522,27 @@
         <option value="$PROJECT_DIR$/src/com/h2o/sketch/RowSketcher.java" />
         <option value="$PROJECT_DIR$/src/com/h2o/sketch/ColumnSketcher.java" />
         <option value="$PROJECT_DIR$/src/com/h2o/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java" />
-        <option value="$PROJECT_DIR$/src/com/h2o/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/com/h2o/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/h2o/RowSketcher.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/h2o/Formatter.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/EDA.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/Sorts.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/RowSketcher.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/h2o/DataSource.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
+    <option name="x" value="168" />
     <option name="y" value="23" />
     <option name="width" value="1263" />
     <option name="height" value="836" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -164,7 +558,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,13 +570,20 @@
               <item name="Sketcher" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sketcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sketcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="h2o" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +594,7 @@
       <recent name="com.h2o" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.h2o" />
       <recent name="com.h2o.sketch" />
     </key>
   </component>
@@ -220,7 +621,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.h2o.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;wine.csv&quot; &quot;0&quot; &quot;.95&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="-d64 -Xms 4g -Xmx 6g " />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -322,160 +723,450 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="23" width="1263" height="836" extended-state="0" />
-    <editor active="true" />
+    <frame x="168" y="23" width="1263" height="836" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26365796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26365796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36302295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962519" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36302295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26365796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/h2o/data/DataSource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#6139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketch.csv">
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="435">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding>
-            <element signature="e#0#4549#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1036#0" expanded="true" />
+            <element signature="e#0#4569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="1740">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
-            <element signature="e#0#5815#0" expanded="true" />
+            <element signature="e#0#6139#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#4569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="9" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#6139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rowsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="510">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
-            <element signature="e#0#7573#0" expanded="true" />
+            <element signature="e#0#7746#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="1050">
+          <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#4569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rowsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#7746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="9" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#6139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#4569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rowsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#7746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="9" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#6139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rowsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colsketch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Sorts.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Globals.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/EDA.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Statistics.java" />
+    <entry file="file://$PROJECT_DIR$/data.csv" />
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/DataGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/ColumnSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/RowSketcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#6139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/h2o/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#4569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

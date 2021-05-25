@@ -16,29 +16,29 @@
 package com.h2o;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class DataSource {
     private int nRows;
     private int nCols;
-    private double[][] normalizedData;
-    private double[][] rawData;
+    private double[][] data;
     private String[] columnNames;
     private String fileName;
-    private double[] minValues;
-    private double[] maxValues;
+    public double[] minValues;
+    public double[] maxValues;
 
     public DataSource(String fileName) {
         /* this code reads only classic, strict CSV files. Namely, comma separators and a header record with labels */
         this.fileName = fileName;
         try {
-            countRows();
             readDataRecords();
 
         } catch (java.io.IOException ie) {
-            System.out.println("Error reading normalizedData file.");
+            System.out.println("Error reading data file.");
+            System.exit(1);
         }
-        System.out.println("Input data rows, cols " + nRows + " " + nCols);
-        normalize();
     }
 
     public int getNumRows() {
@@ -49,12 +49,8 @@ public class DataSource {
         return nCols;
     }
 
-    public double[][] getNormalizedData() {
-        return normalizedData;
-    }
-
-    public double[][] getRawData() {
-        return rawData;
+    public double[][] getData() {
+        return data;
     }
 
     public String[] getColumnNames() {
@@ -67,28 +63,19 @@ public class DataSource {
             bufferedReader = new java.io.BufferedReader(new java.io.FileReader(fileName));
         } catch (java.io.FileNotFoundException fe) {
             System.out.println("Dataset file not found.");
+            System.exit(1);
         }
         return bufferedReader;
     }
 
-    private void countRows() throws IOException {
-        java.io.BufferedReader bufferedReader = openDataFile();
-
-        readColumnNamesRecord();
-        nRows = 0;
-        while (bufferedReader.readLine() != null) {
-            nRows++;
-        }
-        nRows--;
-        bufferedReader.close();
-    }
-
-    private void readColumnNamesRecord() throws IOException {
+    private void processColumnNamesRecord() throws IOException {
         java.io.BufferedReader bufferedReader = openDataFile();
 
         String record = bufferedReader.readLine();
         String[] fields = getFields(record);
         nCols = fields.length;
+        nRows = countRows();
+        System.out.println("Rows and columns in file: " + nRows+" "+nCols);
         columnNames = new String[nCols];
         System.arraycopy(fields, 0, columnNames, 0, nCols);
     }
@@ -97,10 +84,11 @@ public class DataSource {
         java.io.BufferedReader bufferedReader = openDataFile();
         String record;
 
-        bufferedReader.readLine();    // skip column labels record
+        processColumnNamesRecord();
 
-        normalizedData = new double[nRows][nCols];
-        rawData = new double[nRows][nCols];
+        bufferedReader.readLine();
+
+        data = new double[nRows][nCols];
         minValues = new double[nCols];
         maxValues = new double[nCols];
         for (int j = 0; j < nCols; j++) {
@@ -109,24 +97,27 @@ public class DataSource {
         }
         for (int i = 0; i < nRows; i++) {
             record = bufferedReader.readLine();
-            if (record == null)
+            if (record == null) {
+                nRows = i;
                 break;
+            }
             String[] fields = getFields(record);
             processRecord(fields, i);
         }
         bufferedReader.close();
+        normalize();
     }
 
     private void processRecord(String[] fields, int row) {
         for (int j = 0; j < nCols; j++) {
             try {
-                rawData[row][j] = Double.parseDouble(fields[j]);
-                if (!Double.isNaN(rawData[row][j])) {
-                    minValues[j] = Math.min(rawData[row][j], minValues[j]);
-                    maxValues[j] = Math.max(rawData[row][j], maxValues[j]);
+                data[row][j] = Double.parseDouble(fields[j]);
+                if (!Double.isNaN(data[row][j])) {
+                    minValues[j] = Math.min(data[row][j], minValues[j]);
+                    maxValues[j] = Math.max(data[row][j], maxValues[j]);
                 }
             } catch (NumberFormatException e) {
-                rawData[row][j] = Double.NaN;
+                data[row][j] = Double.NaN;
             }
         }
     }
@@ -134,7 +125,7 @@ public class DataSource {
     private void normalize() {
         for (int i = 0; i < nRows; i++) {
             for (int j = 0; j < nCols; j++) {
-                normalizedData[i][j] = (rawData[i][j] - minValues[j]) / (maxValues[j] - minValues[j]);
+                data[i][j] = (data[i][j] - minValues[j]) / (maxValues[j] - minValues[j]);
             }
         }
     }
@@ -144,5 +135,20 @@ public class DataSource {
             return null;
         record = record.trim();
         return record.split(",");
+    }
+
+    private int countRows() {
+        int count = 0;
+        try {
+
+            // make a connection to the file
+            Path file = Paths.get(fileName);
+            // read all lines of the file
+            count = (int) Files.lines(file).count();
+
+        } catch (Exception e) {
+            e.getStackTrace();
+        }
+        return count;
     }
 }

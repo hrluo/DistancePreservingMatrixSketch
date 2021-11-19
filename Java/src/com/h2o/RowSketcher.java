@@ -1,5 +1,5 @@
 /*
- * Sketcher -- A matrix sketch algorithm.
+ * RowSketcher -- A matrix sketch algorithm.
  *
  * Copyright 2020 by Leland Wilkinson.
  *
@@ -27,13 +27,14 @@ public class RowSketcher {
     private double delta;
     private ArrayList<double[]> exemplars;
     private ArrayList<Integer> exemplarIndices;
+    private int[] rowIndices;
     private ArrayList<ArrayList<Integer>> memberIndices;
     private double radius;
     public static int seed = 4123;
     public static Random random = new Random(seed);
 
-    public RowSketcher (String fileName, double radius) {
-        this.dataSource = new DataSource(fileName);
+    public RowSketcher (String fileName, String normalize, double radius) {
+        this.dataSource = new DataSource(fileName, normalize);
         this.radius = radius;
         data = dataSource.getData();
         colNames = dataSource.getColumnNames();
@@ -49,10 +50,18 @@ public class RowSketcher {
         return exemplars;
     }
 
+    public int[] getRowIndices() {
+        rowIndices = new int[exemplarIndices.size()];
+        for (int i = 0; i < rowIndices.length; i++)
+            rowIndices[i] = exemplarIndices.get(i);
+        return rowIndices;
+    }
+
     public void compute() {
         /*
          * an exemplar is a case that is used to represent its close members
          */
+
         exemplars = new ArrayList<>();
         exemplarIndices = new ArrayList<>();
         memberIndices = new ArrayList<>();

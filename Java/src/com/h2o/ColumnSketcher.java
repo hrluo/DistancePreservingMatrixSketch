@@ -1,5 +1,5 @@
 /*
- * Sketcher -- A matrix sketch algorithm.
+ * ColumnSketcher -- A matrix sketch algorithm.
  *
  * Copyright 2020 by Leland Wilkinson.
  *
@@ -22,23 +22,28 @@ import java.util.TreeSet;
 public class ColumnSketcher {
 
     private int nRows, nCols;
+    private int numberOfColumns;
     private int nDistances;
     private double[][] data;
     private String[] colNames;
+    private int[] colIndices;
     private double[] distancesBetweenRowsOnAllColumns;
     private double[] distancesBetweenRowsOnSelectedColumns;
     private double[] distancesBetweenRowsOnSelectedColumn;
-    private double maxCorrelation;
     private DataSource dataSource;
 
-    public ColumnSketcher(String fileName, double maxCorrelation) {
-        this.dataSource = new DataSource(fileName);
-        this.maxCorrelation = maxCorrelation;
+    public ColumnSketcher(String fileName, String normalize, int numberOfColumns) {
+        this.dataSource = new DataSource(fileName, normalize);
         data = dataSource.getData();
         colNames = dataSource.getColumnNames();
         this.nRows = dataSource.getNumRows();
         this.nCols = dataSource.getNumCols();
+        this.numberOfColumns = numberOfColumns;
         nDistances = this.nRows * (this.nRows - 1) / 2;
+    }
+
+    public int[] getColIndices() {
+        return colIndices;
     }
 
     public void compute() {
@@ -85,7 +90,7 @@ public class ColumnSketcher {
                     bestCorrelation = r;
                 }
             }
-            if (bestCorrelation < previousBestCorrelation || bestCorrelation > maxCorrelation)
+            if (bestCorrelation < previousBestCorrelation || selectedColumns.size() >= numberOfColumns)
                 break;
             System.out.println("best column " + j + " " + bestColumn + " " + colNames[bestColumn] + " " + bestCorrelation);
             computeDistancesOnSelectedColumn(bestColumn);
@@ -108,33 +113,6 @@ public class ColumnSketcher {
                 double distance = squaredDistance(ri, rj);
                 if (!Double.isNaN(distance))
                     distancesBetweenRowsOnSelectedColumn[ij] = distance + distancesBetweenRowsOnSelectedColumns[ij];
-                ij++;
-            }
-        }
-    }
-
-    private void computeDistancesOnSelectedColumns(Set<Integer> selectedColumns) {
-        /* all possible pairs of distinct rows */
-        /* this makes an enormous file, so it is not used as a default */
-        distancesBetweenRowsOnSelectedColumns = new double[nDistances];
-        int nSelected = selectedColumns.size();
-        double[] ri = new double[nSelected];
-        double[] rj = new double[nSelected];
-
-        int ij = 0;
-        for (int i = 1; i < nRows; i++) {
-            int k = 0;
-            for (Integer selectedColumn : selectedColumns) {
-                ri[k] = data[i][selectedColumn];
-                k++;
-            }
-            for (int j = 0; j < i; j++) {
-                k = 0;
-                for (Integer selectedColumn : selectedColumns) {
-                    rj[k] = data[j][selectedColumn];
-                    k++;
-                }
-                distancesBetweenRowsOnSelectedColumns[ij] = squaredDistance(ri, rj);
                 ij++;
             }
         }
@@ -184,7 +162,9 @@ public class ColumnSketcher {
         Object[] s = selectedColumns.toArray();
 
         /* write header */
+        colIndices = new int[selectedColumns.size()];
         for (int j = 0; j < selectedColumns.size(); j++) {
+            colIndices[j] = (int) s[j];
             if (j < selectedColumns.size() -1)
                 writer.print(colNames[(Integer) s[j]]+",");
             else

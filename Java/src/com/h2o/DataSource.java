@@ -26,12 +26,14 @@ public class DataSource {
     private double[][] data;
     private String[] columnNames;
     private String fileName;
+    private String normalize;
     public double[] minValues;
     public double[] maxValues;
 
-    public DataSource(String fileName) {
+    public DataSource(String fileName, String normalize) {
         /* this code reads only classic, strict CSV files. Namely, comma separators and a header record with labels */
         this.fileName = fileName;
+        this.normalize = normalize;
         try {
             readDataRecords();
 
@@ -105,7 +107,8 @@ public class DataSource {
             processRecord(fields, i);
         }
         bufferedReader.close();
-        normalize();
+        if (normalize.equalsIgnoreCase("yes"))
+            normalize();
     }
 
     private void processRecord(String[] fields, int row) {
